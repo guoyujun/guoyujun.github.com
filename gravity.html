@@ -10,7 +10,7 @@
 		if(window.DeviceMotionEvent){
 			window.addEventListener('devicemotion',function(ev){
 				var acc = ev.accelerationIncludingGravity;
-				oBox.innerHTML = acc.x+acc.y+acc.z;	
+				oBox.innerHTML = acc.x+'---'+acc.y+'---'+acc.z;	
 			},false);
 		}else{
 			alert('您的设备不支持重力感应');	
