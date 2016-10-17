@@ -343,15 +343,9 @@ html,body,.swiper-container,.swiper-slider,.main{
 }
 .page4 .bottom div:nth-child(6){
     width: 4rem;
-    height: 1.3rem;
+    height: 2.8rem;
     right: 0.24rem;
-    bottom: 5.4rem;
-}
-.page4 .bottom div:nth-child(7){
-    width: 4rem;
-    height: 1.5rem;
-    right: 0.24rem;
-    bottom: 2.19rem;
+    bottom: 0rem;
 }
 
 /*page5*/
@@ -713,15 +707,15 @@ html,body,.swiper-container,.swiper-slider,.main{
     -webkit-animation: zoomInRight 0.2s linear 2s 1 both;
     animation: zoomInRight 0.2s linear 2s 1 both;
 }
-#page4 .bottom div:nth-child(7) p:nth-child(1){
-    -webkit-animation: zoomInRight 0.2s linear 2.1s 1 both;
+#page4 .bottom div:nth-child(6) p:nth-child(4){
+    -webkit-animation: zoomInRight 0.2s linear 2.2s 1 both;
     animation: zoomInRight 0.2s linear 2.2s 1 both;
 }
-#page4 .bottom div:nth-child(7) p:nth-child(2){
+#page4 .bottom div:nth-child(6) p:nth-child(5){
     -webkit-animation: zoomInRight 0.2s linear 2.4s 1 both;
     animation: zoomInRight 0.2s linear 2.4s 1 both;
 }
-#page4 .bottom div:nth-child(7) p:nth-child(3){
+#page4 .bottom div:nth-child(6) p:nth-child(6){
     -webkit-animation: zoomInRight 0.2s linear 2.6s 1 both;
     animation: zoomInRight 0.2s linear 2.6s 1 both;
 }
