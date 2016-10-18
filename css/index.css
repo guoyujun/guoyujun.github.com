@@ -6,17 +6,16 @@ html,body,.swiper-container,.swiper-slider,.main{
     height: 100%;
     overflow: hidden;
 }
-/*design  340*540*/
 /*music*/
 .music {
     display: none;
-    position: absolute;
+    position:fixed;
     top: .3rem;
     right: .3rem;
     z-index: 10;
     width: .6rem;
     height: .6rem;
-    background: url("../audio/music.svg") no-repeat;
+    background:url(../img/music.png);
     background-size: 100% 100%;
 }
 
@@ -347,30 +346,74 @@ html,body,.swiper-container,.swiper-slider,.main{
     right: 0.24rem;
     top: 0rem;
 }
-
-
 /*page5*/
 .page5{
-    position: relative;
-    background-color:#fdd132;
+	background-color:#FC6;	
 }
-.page5 *{
+.page5 .wrapper h5:nth-child(1){
+    color: white;
+    height: .77rem;
+    font-size: .4rem;
+    line-height: .77rem;
+    text-align: center;
+	margin-top:0.5rem;
+}
+.page5 .wrapper ul:nth-child(2){
+	width:5rem;
+	height:7rem;
+	margin:0.8rem auto;
+	padding-left:0.3rem;
+	padding-right:0.3rem;	
+	overflow:hidden;
+	margin-left:0.62rem;
+}
+.page5 .wrapper ul li{
+	width:2rem;
+	height:3rem;
+	background:#ccc;
+	float:left;	
+	margin-right:0.5rem;
+	margin-bottom:0.5rem;
+	position:relative;
+}
+.page5 .wrapper ul li img{
+	width:1.8rem;
+	height:2rem;
+	position:absolute;
+	left:0.1rem;
+	top:0.1rem;
+}
+.page5 .wrapper ul li p{
+	width:2rem;
+	height:1.5rem;
+	position:absolute;
+	left:0;
+	top:2.4rem;
+	text-align:center;
+	font-size:0.35rem;
+}
+/*page6*/
+.page6{
+    position: relative;
+    background-color:#99C;
+}
+.page6 *{
     position: absolute;
 }
-.page5 img:nth-child(1),.page5 span:nth-child(5){
+.page6 img:nth-child(1),.page6 span:nth-child(5){
     width: 3.24rem;
     height: .78rem;
     left: .12rem;
     top:1.53rem;
     z-index: 1;
 }
-.page5 img:nth-child(2){
+.page6 img:nth-child(2){
     width: 5.46rem;
     height: 6.8rem;
     left: .51rem;
     top:1.53rem;
 }
-.page5 p:nth-child(3){
+.page6 p:nth-child(3){
     width: 4.87rem;
     height:4.16rem;
     left: .83rem;
@@ -379,20 +422,20 @@ html,body,.swiper-container,.swiper-slider,.main{
     line-height: .4rem;
     color: white;
 }
-.page5 img:nth-child(4){
+.page6 img:nth-child(4){
     width: 3.23rem;
     height: 2.07rem;
     left: 3.02rem;
     top:6.48rem;
 }
-.page5 span:nth-child(5){
+.page6 span:nth-child(5){
     display: block;
     line-height: .78rem;
     text-align: center;
     font-size: .4rem;
     color: white;
 }
-.page5  .message{
+.page6  .message{
     width: 6.4rem;
     height: 0.6rem;
     line-height:.6rem;
@@ -405,7 +448,7 @@ html,body,.swiper-container,.swiper-slider,.main{
 
 
 /*page6*/
-.page6 .wrapper{
+.page7 .wrapper{
     width: 100%;
     height: 100%;
     position: relative;
@@ -413,29 +456,29 @@ html,body,.swiper-container,.swiper-slider,.main{
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-.page6 .wrapper *{
+.page7 .wrapper *{
     position: absolute;
 }
-.page6 .wrapper img:nth-child(1){
+.page7 .wrapper img:nth-child(1){
     width: 5.95rem;
     height: 7.79rem;
     left: .26rem;
     top:.89rem;
 }
-.page6 .wrapper img:nth-child(2),.page6 .wrapper span:nth-child(3){
+.page7 .wrapper img:nth-child(2),.page7 .wrapper span:nth-child(3){
     width: 2.77rem;
     height: 1.25rem;
     left: 1.8rem;
     top:1.38rem;
 }
-.page6 .wrapper span:nth-child(3){
+.page7 .wrapper span:nth-child(3){
     color: white;
     height: .77rem;
     font-size: .4rem;
     line-height: .77rem;
     text-align: center;
 }
-.page6 .wrapper span:nth-child(4),.page6 .wrapper span:nth-child(5){
+.page7 .wrapper span:nth-child(4),.page7 .wrapper span:nth-child(5){
     height: .64rem;
     width: 6.4rem;
     color: white;
@@ -446,16 +489,16 @@ html,body,.swiper-container,.swiper-slider,.main{
     z-index: 1;
 
 }
-.page6 .wrapper span:nth-child(5){
+.page7 .wrapper span:nth-child(5){
     top:3.57rem;
 }
-.page6 .wrapper img:nth-child(6){
+.page7 .wrapper img:nth-child(6){
     width: 3.22rem;
     height: 2.73rem;
     left: 1.58rem;
     top: 4.35rem;
 }
-.page6 .wrapper span:nth-child(7){
+.page7 .wrapper span:nth-child(7){
     width: 2.23rem;
     height: .71rem;
     color: #1f90bc;
@@ -466,7 +509,7 @@ html,body,.swiper-container,.swiper-slider,.main{
     top:7.5rem;
     background-color:white;
 }
-.page6 .wrapper .message{
+.page7 .wrapper .message{
     width: 6.4rem;
     height: 0.6rem;
     line-height:.6rem;
@@ -478,8 +521,8 @@ html,body,.swiper-container,.swiper-slider,.main{
     text-shadow: .1rem .1rem .3rem red;
 }
 
-/*page7*/
-.page7{
+/*page8*/
+.page8{
     position: relative;
     /*background-color: #f6f7fb;
     background:rgba(244,244,244,0.8);*/
@@ -487,10 +530,10 @@ html,body,.swiper-container,.swiper-slider,.main{
     -webkit-background-size: 100% 100%;
     background-size: 100% 100%;
 }
-.page7 *{
+.page8 *{
     position: absolute;
 }
-.page7 div:nth-child(1){
+.page8 div:nth-child(1){
     width: 5rem;
     height: 5rem;
     border: 3px dashed cyan;
@@ -498,7 +541,7 @@ html,body,.swiper-container,.swiper-slider,.main{
     left: .7rem;
     top:1.76rem;
 }
-.page7 span:nth-child(2){
+.page8 span:nth-child(2){
     left: .7rem;
     top:1.76rem;
     width: 5rem;
@@ -508,7 +551,7 @@ html,body,.swiper-container,.swiper-slider,.main{
     font-size: 1rem;
     color: white;
 }
-.page7 div:nth-child(3){
+.page8 div:nth-child(3){
     width: 1.6rem;
     height: 1.6rem;
     background-color:#4A93BE;
@@ -516,7 +559,7 @@ html,body,.swiper-container,.swiper-slider,.main{
     left: .7rem;
     top:5.3rem;
 }
-.page7 div:nth-child(3) img{
+.page8 div:nth-child(3) img{
     width: .74rem;
     height: .74rem;
     position: absolute;
@@ -529,14 +572,14 @@ html,body,.swiper-container,.swiper-slider,.main{
     top:5.5rem;*/
 }
 
-.page7  .view{
+.page8  .view{
     width: 6.4rem;
     height: 0.6rem;
     overflow: hidden;
     background: black;
     bottom: 1.8rem;
 }
-.page7 .message{
+.page8 .message{
     width: 100%;
     height: 100%;
     line-height:.6rem;
@@ -547,7 +590,7 @@ html,body,.swiper-container,.swiper-slider,.main{
     z-index: 5;
     letter-spacing: .3rem;
 }
-.page7  .eye{
+.page8  .eye{
     height: 100%;
     width: 20%;
     color: white;
@@ -721,83 +764,83 @@ html,body,.swiper-container,.swiper-slider,.main{
     animation: zoomInRight 0.2s linear 2.6s 1 both;
 }
 /*page5*/
-#page5 img:nth-child(1){
+#page6 img:nth-child(1){
     -webkit-animation: zoomInDown 1s linear 0.1s 1 both;
     animation: zoomInDown 1s linear 0.1s 1 both;
 }
-#page5 img:nth-child(2){
+#page6 img:nth-child(2){
     -webkit-animation: rollIn 0.8s linear 0s 1 both;
     animation:rollIn 0.8s linear 0s 1 both;
 }
-#page5 p:nth-child(3){
+#page6 p:nth-child(3){
     -webkit-animation: fadeIn 1s linear 0.3s 1 both;
     animation: fadeIn 1s linear 0.3s 1 both;
 }
-#page5 img:nth-child(4){
+#page6 img:nth-child(4){
     -webkit-animation: bounceInLeft 1s linear 0.3s 1 both;
     animation: bounceInLeft 1s linear 0.3s 1 both;
 }
-#page5 span:nth-child(5){
+#page6 span:nth-child(5){
     -webkit-animation: bounceInRight 1s linear 0.2s 1 both;
     animation: bounceInRight 1s linear 0.2s 1 both;
 }
-#page5  .message{
+#page6  .message{
     -webkit-animation: swing 1s linear 0s infinite both;
     animation: swing 1s linear 0s infinite both;
 }
 /*page6*/
-#page6 .wrapper{
+#page7 .wrapper{
     -webkit-animation: fadeIn 0.2s linear 0s 1 both;
     animation: fadeIn 0.2s linear 0s 1 both;
 }
-#page6 .wrapper img:nth-child(1){
+#page7 .wrapper img:nth-child(1){
     -webkit-animation: flip 0.3s linear 0s 1 both;
     animation: flip 0.3s linear 0s 1 both;
 }
-#page6 .wrapper img:nth-child(2){
+#page7 .wrapper img:nth-child(2){
     -webkit-animation: slideInDown 0.8s linear 0.1s 1 both;
     animation:  slideInDown 0.8s linear 0.1s 1 both;
 }
-#page6 .wrapper span:nth-child(3){
+#page7 .wrapper span:nth-child(3){
     -webkit-animation: zoomInDown 1s linear 0.1s 1 both;
     animation:  zoomInDown 1s linear 0.1s 1 both;
 }
-#page6 .wrapper span:nth-child(4){
+#page7 .wrapper span:nth-child(4){
     -webkit-animation: bounceInLeft 1s linear 0.3s 1 both;
     animation:   bounceInLeft 1s linear 0.3s 1 both;
 }
-#page6 .wrapper span:nth-child(5){
+#page7 .wrapper span:nth-child(5){
     -webkit-animation:  fadeInRightBig 1s linear 0.3s 1 both;
     animation:   fadeInRightBig 1s linear 0.3s 1 both;
 }
-#page6 .wrapper img:nth-child(6){
+#page7 .wrapper img:nth-child(6){
     -webkit-animation:  lightSpeedIn 1s linear 0.3s 1 both;
     animation:   lightSpeedIn 1s linear 0.3s 1 both;
 }
-#page6 .wrapper span:nth-child(7){
+#page7 .wrapper span:nth-child(7){
     -webkit-animation:  bounceIn 1s linear 0.4s 1 both;
     animation: bounceIn 1s linear 0.4s 1 both;
 }
 /*page7*/
-#page7 div:nth-child(1){
+#page8 div:nth-child(1){
     -webkit-animation: page7 1s linear 0s infinite both;
     animation: page7 1s linear 0s infinite both;
 
 
 }
-#page7 span:nth-child(2){
+#page8 span:nth-child(2){
     -webkit-animation: pulse 1s linear 0s infinite both;
     animation: pulse 1s linear 0s infinite both;
 }
-#page7 div:nth-child(3){
+#page8 div:nth-child(3){
     -webkit-animation: rotateIn 0.8s linear 0s 1 both;
     animation: rotateIn 0.8s linear 0s 1 both;
 }
-#page7 div:nth-child(3) img{
+#page8 div:nth-child(3) img{
     -webkit-animation: shake 3s linear 0.2s 1 both;
     animation: shake 3s linear 0.2s infinite both;
 }
-#page7  .eye{
+#page8  .eye{
     -webkit-animation: move_eye 3s linear 0s infinite both;
     animation: move_eye 3s linear 0s infinite  both;
 }
