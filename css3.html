@@ -30,7 +30,8 @@ window.onload=function(){
 		var oPage2 = document.querySelector('.page2');
 		var bOk = false;
 		var iNow = 0;
-		oBox.onclick=function(){
+		setInterval(show,1000);
+		function show(){
 			if(bOk)return;
 			bOk = true;
 			//给page加运动并且Y轴逆时针旋转180deg
@@ -78,7 +79,8 @@ window.onload=function(){
 		var iNow = 0;
 		var bOk = false;
 		var aS = oBox.children;
-		oBox.onclick=function(){
+		setInterval(show,1000);
+		function show(){
 			if(bOk)return;
 			bOk = true;
 			iNow++;
